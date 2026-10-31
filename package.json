@@ -1,0 +1,28 @@
+{
+  "name": "home-assistant-tizenbrew",
+  "version": "0.1.2-boxhill",
+  "description": "Open an existing Home Assistant dashboard with Samsung remote navigation in TizenBrew.",
+  "license": "MIT",
+  "appName": "Home Assistant",
+  "packageType": "mods",
+  "websiteURL": "http://192.168.68.56",
+  "main": "dist/userScript.js",
+  "keys": [
+    "ColorF0Red"
+  ],
+  "evaluateScriptOnDocumentStart": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "configure": "node scripts/configure.cjs",
+    "test": "node --test tests/browser.test.cjs tests/config.test.cjs",
+    "package": "node scripts/package.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
