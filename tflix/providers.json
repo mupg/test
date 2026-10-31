@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tomas-xayah",
+    "name": "Xayah",
+    "type": "embed",
+    "movieUrl": "https://vidsrc.sh/embed/movie?tmdb={id}&autoplay=1",
+    "tvUrl": "https://vidsrc.sh/embed/tv?tmdb={id}&season={season}&episode={episode}&autoplay=1&autonext=1"
+  },
+  {
+    "id": "tomas-ekko",
+    "name": "Ekko",
+    "type": "embed",
+    "movieUrl": "https://cinesrc.st/embed/movie/{id}?autoplay=true&prioritize=true&lastserver=wave",
+    "tvUrl": "https://cinesrc.st/embed/tv/{id}?s={season}&e={episode}&autoplay=true&autonext=true&prioritize=true&lastserver=wave"
+  },
+  {
+    "id": "tomas-naafiri",
+    "name": "Naafiri",
+    "type": "embed",
+    "movieUrl": "https://vidfast.vc/movie/{id}?autoPlay=true",
+    "tvUrl": "https://vidfast.vc/tv/{id}/{season}/{episode}?autoPlay=true"
+  },
+  {
+    "id": "tomas-ryze",
+    "name": "Ryze",
+    "type": "embed",
+    "movieUrl": "https://vidlink.pro/movie/{id}?title=true&poster=true&autoplay=true",
+    "tvUrl": "https://vidlink.pro/tv/{id}/{season}/{episode}?title=true&poster=true&autoplay=true&nextbutton=true"
+  }
+]
